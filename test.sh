@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo touch /mnt/test1
+sudo touch /mnt/test2

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readh -p "Input: " varInput
+read -p "Input: " varInput
 var1=$(echo "`curl https://raw.githubusercontent.com/grrygh/test/master/payload`$varInput" | sha256sum)
 
 if [ "$var1" = "$var2" ]; then

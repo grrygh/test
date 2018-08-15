@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Input?"
-read varInput
+varInput=$1
 var1=$(echo "`curl https://raw.githubusercontent.com/grrygh/test/master/payload`$varInput" | sha256sum)
 var2=$(curl https://raw.githubusercontent.com/grrygh/test/master/hash)
 

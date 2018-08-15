@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo touch /mnt/test1
+readh -p "Input: " varInput
+var1=$(echo 
